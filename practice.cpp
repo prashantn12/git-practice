@@ -16,6 +16,10 @@ int main() {
     //now it is an sum programm 
     int sum = 2+2;
     cout<<"This is a sum"<<sum<<endl;
+
+    for (int i = 1; i <= 5; i++) {
+        cout << i << endl;
+    }
 	return 0;
 }
 
