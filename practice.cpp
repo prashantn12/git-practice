@@ -12,7 +12,10 @@ int main() {
     }else{
       cout<<"no it is not correct"<<endl;
     }
-  
+    
+    //now it is an sum programm 
+    int sum = 2+2;
+    cout<<"This is a sum"<<sum<<endl;
 	return 0;
 }
 
