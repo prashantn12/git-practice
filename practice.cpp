@@ -1,31 +1,19 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
-//"Decipline/regret"
 
 int main() {
-  
-  cout<<"Enter a number"<<" ";
-  int n;
-  cin>>n;
-    if(n){
-      cout<<"Yes it is correct"<<endl;
-    }else{
-      cout<<"no it is not correct"<<endl;
-    }
-    
-    //now it is an sum programm 
-    int sum = 2+2;
-    cout<<"This is a sum"<<sum<<endl;
 
-    for (int i = 1; i <= 5; i++) {
-        cout << i << endl;
-    }
+    int maths = 80;
+    int science = 75;
+    int english = 90;
 
-    cout << "Numbers from 1 to 10:" << endl;
+    int total = maths + science + english;
 
-    for (int i = 1; i <= 10; i++) {
-        cout << i << endl;
-    }
-	return 0;
+    cout << "Maths: " << maths << endl;
+    cout << "Science: " << science << endl;
+    cout << "English: " << english << endl;
+
+    cout << "Total Marks: " << total << endl;
+
+    return 0;
 }
-
